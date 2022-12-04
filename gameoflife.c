@@ -6,7 +6,7 @@
 #include <mpi.h>
 #define DEFAULT_ITERATIONS 128
 #define GRID_WIDTH 256
-#define DIM 16 // assume a square grid
+#define DIM 16
 
 int mod(int a, int b){
     int r = a % b;
